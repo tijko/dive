@@ -5,7 +5,7 @@ RUN wget -O- https://download.docker.com/linux/static/stable/$(uname -m)/docker-
     tar -xzf - docker/docker --strip-component=1 && \
     mv docker /usr/local/bin
 
-RUN apt install vim
+RUN apk add vim
 COPY vimrc /etc/vim/
 COPY dive /usr/local/bin/
 

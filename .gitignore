@@ -1,6 +1,6 @@
 /.idea
 /bin 
-
+.vs*
 # Binaries for programs and plugins
 *.exe
 *.exe~
@@ -22,3 +22,4 @@
 /dist
 .cover
 coverage.txt
+.gitignore
